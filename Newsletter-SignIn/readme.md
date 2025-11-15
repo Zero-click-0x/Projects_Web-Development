@@ -6,7 +6,7 @@
 
 ## 🚀 Live Demo
 
-[View Live Site](https://zero-click-0x.github.io/Projects_Web-Development/04_Newsletter-SignIn/)
+[View Live Site](https://zero-click-0x.github.io/Projects_Web-Development/Newsletter-SignIn/)
 
 # Newsletter Sign-up Form 📧
 
