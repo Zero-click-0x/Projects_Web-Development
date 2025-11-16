@@ -35,9 +35,12 @@ jobs:
         with:
           node-version: lts/*
           cache: "npm"
+          cache-dependency-path: "Url-Shortening-Api/package-lock.json"
       - name: Install dependencies
+        working-directory: ./Url-Shortening-Api
         run: npm ci
       - name: Build
+        working-directory: ./Url-Shortening-Api
         run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -45,7 +48,7 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           # Upload dist folder
-          path: "./dist"
+          path: "./Url-Shortening-Api/dist"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
