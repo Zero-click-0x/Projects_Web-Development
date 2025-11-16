@@ -45,7 +45,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: "./Url-Shortening-Api/dist"
+          path: "."
 
       - name: Deploy to GitHub Pages
         id: deployment
