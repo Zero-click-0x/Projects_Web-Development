@@ -17,12 +17,6 @@ hamburger_menu?.addEventListener("click", () => {
 });
 
 /*  API Call Handling */
-interface UserInput {
-  url: string;
-}
-interface ApiResponse {
-  url: string;
-}
 document
   .querySelector<HTMLButtonElement>(".url button")
   ?.addEventListener("click", async () => {
